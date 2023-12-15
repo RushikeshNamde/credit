@@ -19,9 +19,9 @@ from streamlit_lottie import st_lottie_spinner
 
 
 
-train_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/train.csv')
+train_original = pd.read_csv('https://github.com/RushikeshNamde/credit/blob/main/train.csv')
 
-test_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Credit-card-approval-prediction-classification/main/datasets/test.csv')
+test_original = pd.read_csv('https://github.com/RushikeshNamde/credit/blob/main/test.csv')
 
 full_data = pd.concat([train_original, test_original], axis=0)
 
